@@ -8,3 +8,9 @@ model_state_dict
 training.zip
 training 
 orchid_dataset
+orchid_private_set.zip
+orchid_public_set.zip
+Testing Dataset ReadMe.txt
+submission_template.csv
+private_public_password.txt
+test_dataset

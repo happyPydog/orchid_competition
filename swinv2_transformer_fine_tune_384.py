@@ -11,15 +11,13 @@ from timm.scheduler import CosineLRScheduler
 from timm.utils.clip_grad import dispatch_clip_grad
 
 from src.transform import train_tf, test_tf
-from src.metric import evaluate
+from src.utils import evaluate
 
 warnings.filterwarnings("ignore")
 
 
 def parse_args() -> argparse:
-    parser = argparse.ArgumentParser(
-        "Split training dataset to train and test", add_help=False
-    )
+    parser = argparse.ArgumentParser("Training model", add_help=False)
 
     # data settings
     parser.add_argument(
