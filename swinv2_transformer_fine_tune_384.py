@@ -38,7 +38,7 @@ def parse_args() -> argparse:
     )
     parser.add_argument("--FINE_TUNE", type=bool, default=True)
     parser.add_argument(
-        "--CHECKPOINT_DIR", type=str, default="swinv2_base_window12_192_22k.pt"
+        "--CHECKPOINT", type=str, default="swinv2_base_window12_192_22k.pt"
     )
 
     # model parameters
@@ -100,7 +100,7 @@ def main(args):
 
     if args.FINE_TUNE:
         state_dict = model.state_dict()
-        checkpoint = torch.load(args.CHECKPOINT_DIR, map_location="cpu")
+        checkpoint = torch.load(args.CHECKPOINT, map_location="cpu")
         checkpoint_model = checkpoint["model"]
 
         pre_trained_layers = {}

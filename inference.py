@@ -19,7 +19,9 @@ def parse_args() -> argparse:
     # data configuration
     parser.add_argument("--IMAGE_DIR", type=str, default="test_dataset")
     parser.add_argument("--SUBMISSION_DIR", type=str, default="submission_template.csv")
-    parser.add_argument("--SUBMISSION_SAVE_DIR", type=str, default="submission.csv")
+    parser.add_argument(
+        "--SUBMISSION_SAVE_DIR", type=str, default="swinv2_submission.csv"
+    )
     parser.add_argument("--CLASS_MAPPING", type=str, default="class_mapping.json")
     parser.add_argument("--IMAGE_SIZE", type=int, default=384)
 
