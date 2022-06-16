@@ -11,7 +11,7 @@
 `$pip install -r requirements.txt`
 
 ## 3. 下載 `training.zip` 並放到 `orchid_competition` 資料夾中
-[training.zip]([training.zip](https://drive.google.com/file/d/1KT_mJEdYtOXF79gdwgQsjmZQfzQS3ApU/view?usp=sharing)) (如果電腦裡面已經有training.zi，省略下載的步驟)
+[training.zip](https://drive.google.com/file/d/1KT_mJEdYtOXF79gdwgQsjmZQfzQS3ApU/view?usp=sharing) (如果電腦裡面已經有training.zi，省略下載的步驟)
 
 以下是目前資料夾的結構圖
 ```bash
