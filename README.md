@@ -1,7 +1,5 @@
 # Orchid Species Identification and Classification Contest
-
-## [Colab version](https://colab.research.google.com/drive/11_yGGLCv-MORehj59de9q-O1Skx4dZBc)
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/11_yGGLCv-MORehj59de9q-O1Skx4dZBc)
 -----------------------------------------------------------------
 
 # 環境 `python == 3.9.5` 
