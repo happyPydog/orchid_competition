@@ -1,0 +1,10 @@
+.venv
+Report_TEAM_1399.docx
+Report_TEAM_1399.pdf
+Report_Template
+model_state_dict
+
+# dataset
+training.zip
+training 
+orchid_dataset
