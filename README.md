@@ -1,6 +1,9 @@
 # Orchid Species Identification and Classification Contest
 
 -----------------------------------------------------------------
+
+# 環境 `python == 3.9.5` 
+
 以下是執行整個程式的流程。
 ## 1. 下載整個 repository
     $git clone https://github.com/Rammstein-1994/orchid_competition.git)
