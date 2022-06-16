@@ -1,6 +1,6 @@
 # Orchid Species Identification and Classification Contest
 
-## [Colab version](https://colab.research.google.com/drive/11_yGGLCv-MORehj59de9q-O1Skx4dZBc?authuser=3)
+## [Colab version](https://colab.research.google.com/drive/11_yGGLCv-MORehj59de9q-O1Skx4dZBc)
 
 -----------------------------------------------------------------
 
