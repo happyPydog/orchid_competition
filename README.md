@@ -1,5 +1,15 @@
 # Orchid Species Identification and Classification Contest
 
+Notebook
+----------------------------
+
+|CLIP|
+
+.. |CLIP| image:: https://colab.research.google.com/assets/colab-badge.svg
+                   :target: https://colab.research.google.com/github/hila-chefer/Transformer-MM-Explainability/blob/main/CLIP_explainability.ipynb
+
+## [Colab version](https://colab.research.google.com/drive/1rH5Qndo-OBusALFKj-ZX_-F70lPsALKS?authuser=3)
+
 -----------------------------------------------------------------
 
 # 環境 `python == 3.9.5` 
