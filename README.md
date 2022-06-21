@@ -29,7 +29,7 @@
 
 執行 prepare_data.py 主要是將整個訓練資料拆分成 train 和 test，預設 test size 為 0.2，random seed 設為 22，這些參數都可以自由地更改。
 
-    $python prepare_data.py --test_size 0.2 --img_dir "training" --csv_dir "trianing/label.csv" --save_dir "orchid_competition" --random_state 22
+    $python prepare_data.py --test_size 0.2 --img_dir "training" --csv_dir "trianing/label.csv" --save_dir "orchid_dataset" --random_state 22
 
 執行完之後會多出 orchid_dataset 和 training 兩個資料夾
 
