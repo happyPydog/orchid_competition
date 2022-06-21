@@ -8,3 +8,4 @@ tqdm==4.64.0
 matplotlib==3.5.2
 yacs==0.1.8
 opencv-python==4.6.0.66
+einops==0.4.1
