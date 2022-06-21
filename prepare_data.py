@@ -93,7 +93,7 @@ if __name__ == "__main__":
     if not Path.exists(Path("training")):
         Path.mkdir(Path("training"))
         with zipfile.ZipFile("training.zip", "r") as f:
-            f.extractall(".")
+            f.extractall("training")
 
     args = parse_args()
 
