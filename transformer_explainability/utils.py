@@ -81,22 +81,22 @@ def plot_attention(
     # laod image from image_dir
     image = Image.open(image_dir)
     transform_image = transform(image)
-    fig, axes = plt.subplots(1, 2, figsize=(6, 8))
+    fig, ax = plt.subplots(figsize=(6, 8))
 
-    # original image
-    axes[0].imshow(image)
-    axes[0].axis("off")
+    # # original image
+    # axes[0].imshow(image)
+    # axes[0].axis("off")
 
     output = model(transform_image.unsqueeze(0).to(device))
     class_prob = print_top_classes(output, class_mapping)
-    fig.suptitle(class_prob, fontsize=16)
+    fig.suptitle(class_prob, fontsize=14)
 
     # predicted class
     attn_mapping = generate_visualization(
         transform_image, attribution_generator, image_size, class_index=class_index
     )
-    axes[1].imshow(attn_mapping)
-    axes[1].axis("off")
+    ax.imshow(attn_mapping)
+    ax.axis("off")
 
     if save_dir:
         plt.savefig(f"{save_dir}.png")
