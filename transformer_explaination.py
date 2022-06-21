@@ -42,7 +42,7 @@ def main():
         device=DEVICE,
         class_mapping=class_mapping,
         class_index=26,
-        save_dir="image/test",
+        save_dir="image/1lebnyzs98_explaination",
     )
 
 

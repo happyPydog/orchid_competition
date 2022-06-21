@@ -99,4 +99,4 @@ def plot_attention(
     axes[1].axis("off")
 
     if save_dir:
-        plt.savefig(f"{save_dir}.png", dpi=300)
+        plt.savefig(f"{save_dir}.png")
