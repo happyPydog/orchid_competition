@@ -106,8 +106,9 @@
 接著創一個新的資料夾，取名為 `test_dataset` (也可以取別的名字，但一定要將 `orchid_private_set.zip` 和 `orchid_public_set.zip` 解壓縮到同個資料夾中)
 將 `orchid_private_set.zip` 和 `orchid_public_set.zip` 解壓縮到 `test_dataset`
 
-兩個檔案的解壓縮為 
+兩個檔案的解壓縮為:
 `orchid_private_set.zip`: `Y8vBt&e*AAZ5GREL3#gA9i9j3A`
+
 `orchid_public_set.zip`: `sxRHRQmzmRw8TS!X4Kz23oRvg@`
 
 最後直接執行 inference.py 即可 (如果有改資料夾名稱記得 `test_dataset` 要換成自己設定的)
