@@ -6,7 +6,7 @@
 
 以下是執行整個程式的流程。
 ## 1. 下載整個 repository
-    $git clone https://github.com/Rammstein-1994/orchid_competition.git)
+    git clone https://github.com/Rammstein-1994/orchid_competition.git)
 
 ## 2. `cd` 到 `orchid_competition` 資料夾，並從 `requirements.txt` 下載套件
 `$cd orchid_competition`
@@ -29,7 +29,7 @@
 
 執行 prepare_data.py 主要是將整個訓練資料拆分成 train 和 test，預設 test size 為 0.2，random seed 設為 22，這些參數都可以自由地更改。
 
-    $python prepare_data.py --test_size 0.2 --img_dir "training" --csv_dir "trianing/label.csv" --save_dir "orchid_dataset" --random_state 22
+    $python prepare_data.py --test_size 0.2 --img_dir "training" --csv_dir "training/label.csv" --save_dir "orchid_dataset" --random_state 22
 
 執行完之後會多出 orchid_dataset 和 training 兩個資料夾
 
@@ -59,11 +59,11 @@
 
 我們會先在 192x192 解析度上進行訓練，等模型訓練到 200 個 epochs 之後就將模型存起來，接下來就會用 384x384 解析度進行微調。
 
-    $python swinv2_transformer_training_192.py --config ...
+    $python swinv2_transformer_training_192.py --config
 
 因為 swinv2_transformer_training_192.py 參數很多，如果不想自己設定就直接執行就執行以下，會用我們在告報中使用的參數設定
 
-     $python swinv2_transformer_training_192.py --BATCH_SIZE 16
+    $python swinv2_transformer_training_192.py --BATCH_SIZE 16
 
 如果 GPU 記憶體不夠就把 BATCH_SIZE 調小一點
 
