@@ -22,3 +22,6 @@ test_dataset
 # image
 visualization
 plot
+
+# .pt file
+*.pt
