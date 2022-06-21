@@ -13,7 +13,7 @@ from src.transform import test_tf
 
 # configuration
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-IMAGE_DIR = "orchid_dataset/train/55/pov7d2may6.jpg"
+IMAGE_DIR = "image/1lebnyzs98.jpg"
 CHECKPOINT_DIR = "vit_base_patch16_384.pt"
 IMAGE_SIZE = 384
 TRANSFORM = test_tf(IMAGE_SIZE)
@@ -41,7 +41,7 @@ def main():
         transform=TRANSFORM,
         device=DEVICE,
         class_mapping=class_mapping,
-        class_index=26,
+        class_index=None,
         save_dir="image/1lebnyzs98_explaination",
     )
 
