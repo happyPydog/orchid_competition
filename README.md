@@ -1,5 +1,6 @@
 # Orchid Species Identification and Classification Contest
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1SwNr-trCUpQWXIRzPneXMxVp_oYSJc7-)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1SwNr-trCUpQWXIRzPneXMxVp_oYSJc7-) 
+[![report](https://img.shields.io/badge/Supplementary-Report-white)](https://github.com/Rammstein-1994/orchid_competition/blob/main/%E9%A0%90%E6%B8%AC%E8%98%AD%E8%8A%B1%E7%A8%AE%E9%A1%9E%E6%AF%94%E8%B3%BD%E5%A0%B1%E5%91%8A.pdf)
 -----------------------------------------------------------------
 
 # 環境 `python == 3.9.5` 
